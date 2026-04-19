@@ -1,0 +1,10 @@
+{
+  "name": "pi-extensions",
+  "version": "1.0.0",
+  "description": "Pi coding agent extensions — OAuth 2.0 learning tools and more",
+  "author": "Niketan Rane <niketan.iiita@gmail.com>",
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./oauth-learn/index.ts"]
+  }
+}
