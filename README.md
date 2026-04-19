@@ -15,18 +15,6 @@ An interactive OAuth 2.0 learning extension with flow visualizations, quizzes, c
 - Side-by-side flow comparisons
 - Interactive quizzes with scoring & progress tracking
 
-**Install:**
-
-```bash
-pi install git:github.com/niketansrane/pi-extensions
-```
-
-Or for a quick test without installing:
-
-```bash
-pi -e git:github.com/niketansrane/pi-extensions
-```
-
 **Commands:**
 
 | Command | Description |
@@ -38,8 +26,29 @@ pi -e git:github.com/niketansrane/pi-extensions
 | `/oauth-analogy` | Understand OAuth via the Apartment Building analogy |
 | `/oauth-compare` | Side-by-side comparison tables |
 | `/oauth-quiz` | Interactive quiz with explanations |
-| `/oauth-quiz all` | Combined quiz across all topics |
 | `/oauth-progress` | Track what you've viewed and quiz scores |
+
+---
+
+### ✍️ blog-writer
+
+A blog writing assistant that helps you outline, draft, review, and polish technical blog posts.
+
+**Features:**
+- Structured outline generation (audience, tone, length selection)
+- Draft review with automated checks (structure, readability, opener quality)
+- Polish pass with filler word detection, passive voice scanning, and a manual checklist
+- Writing tips reference
+
+**Commands:**
+
+| Command | Description |
+|---------|-------------|
+| `/blog` | Main blog writing hub |
+| `/blog-outline` | Generate a structured outline for a topic |
+| `/blog-review <path>` | Review a draft for clarity and structure |
+| `/blog-polish <path>` | Final polish pass — tighten prose, fix flow |
+| `/blog list` | Find existing blog drafts in the project |
 
 The extension also registers an `oauth_learn` tool so the LLM can show flows and comparisons when you ask about OAuth naturally in conversation.
 
@@ -54,6 +63,18 @@ The extension also registers an `oauth_learn` tool so the LLM can show flows and
 | Service Principal | The service's local profile at *this* building |
 | Access Token | A temporary key card that opens specific doors |
 | Scopes | Which doors the card opens |
+
+## Install
+
+```bash
+pi install git:github.com/niketansrane/pi-extensions
+```
+
+Or try without installing:
+
+```bash
+pi -e git:github.com/niketansrane/pi-extensions
+```
 
 ## Adding Extensions
 

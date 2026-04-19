@@ -5,6 +5,9 @@
   "author": "Niketan Rane <niketan.iiita@gmail.com>",
   "license": "MIT",
   "pi": {
-    "extensions": ["./oauth-learn/index.ts"]
+    "extensions": [
+      "./oauth-learn/index.ts",
+      "./blog-writer/index.ts"
+    ]
   }
 }
